@@ -1,0 +1,22 @@
+{
+  "name": "calculator-api-clean-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "tsx watch src/server.ts"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "fastify": "^5.8.5",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
